@@ -1,0 +1,143 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+section {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+}
+@media screen and (min-width: 320px) {
+  .container {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 580px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+.title {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+}
+
+.pre-title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) {
+  .pre-title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.button {
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: background-color 500ms linear;
+  margin-bottom: 10px;
+}
+.button:hover,
+.button :focus {
+  background-color: rgba(175, 238, 238, 0.562);
+}
+@media screen and (min-width: 768px) {
+  .button {
+    height: 30px;
+    width: 160px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+  align-items: flex-end;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.input {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.list-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.list-add {
+  flex-basis: calc((100% - 20px) / 1.5);
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.list-btn {
+  flex-basis: calc((100% - 20px) / 3);
+  padding: 10px;
+}
+
+.btn-add {
+  width: 50px;
+  height: 30px;
+  align-items: baseline;
+  margin-bottom: 0;
+  margin-left: 5px;
+}/*# sourceMappingURL=index.css.map */

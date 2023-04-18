@@ -8,7 +8,48 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <main>
+      <div class="container">
+        <h2 class="title">Test</h2>
+        <div class="form">
+          <form>
+            <label class="label"> Name/Value Pair </label>
+            <input
+              type="text"
+              name="newPair"
+              id="newPair"
+              placeholder="name = value"
+              class="input"
+            />
+          </form>
+          <button type="button" id="addPair" class="button btn-add">Add</button>
+        </div>
+
+        <div>
+          <h2 class="pre-title">Name / Value Pair List</h2>
+          <div class="list-box">
+            <ul class="list list-add"></ul>
+            <ul class="list list-btn">
+              <li>
+                <button type="button" id="name" class="button">
+                  Sort by Name
+                </button>
+              </li>
+              <li>
+                <button type="button" id="value" class="button">
+                  Sort by Value
+                </button>
+              </li>
+              <li>
+                <button type="button" id="delete" class="button">Delete</button>
+              </li>
+              <li>
+                <button type="button" id="show" class="button">Show XML</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
